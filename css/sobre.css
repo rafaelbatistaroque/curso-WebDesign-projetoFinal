@@ -1,0 +1,47 @@
+.interna-sobre {
+    background: url(../img/sobre/header-sobre.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/*Sobre*/
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.missao-sobre {
+    flex: 2;
+    max-width: 520px;
+    margin-right: 70px;
+}
+
+.sub-titulo-sobre {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.sub-titulo-sobre::after {
+    margin-left: 0;
+}
+
+.missao-sobre p {
+    margin-bottom: 20px;
+}
+
+.valores-sobre {
+    flex: 1;
+    margin-left: 70px;
+}
+
+.valores-sobre ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 25px;
+    font-family: Georgia, "Time new Roman", serif;
+}
+
+.quebra-sobre {
+    background: url(../img/sobre/passeio-sobre.jpg) no-repeat center;
+    height: 320px;
+}

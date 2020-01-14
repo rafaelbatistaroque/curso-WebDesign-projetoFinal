@@ -1,0 +1,13 @@
+.interna-portfolio {
+    background: url(../img/portfolio/header-portfolio.jpg) no-repeat center;
+    background-size: cover;
+}
+/*Portfólio*/
+.quote-externo.quote-portfolio{
+    max-width: 500px;
+    text-align: center;
+}
+.quote-externo.quote-portfolio p,
+.quote-externo.quote-portfolio cite{
+    color: #000;
+}

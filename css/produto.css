@@ -1,0 +1,191 @@
+.interna-produto {
+    background: url(../img/produtos/header-produtos.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/*Produto*/
+.container-produtos-venda {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+.item-produto1 {
+    margin: 10px;
+}
+
+.container-titulo-produto1 {
+    flex: 2;
+    height: 270px;
+}
+
+.container-titulo-produto1 h2 {
+    text-align: center;
+    font-size: 2.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    position: relative;
+    top: -160px;
+    color: #fff;
+}
+
+.container-titulo-produto1 h2::after,
+.container-titulo-produto1 h2::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto 2px auto;
+}
+
+.icone-produto1 {
+    flex: 1;
+    background-color: #000;
+    padding-top: 65px;
+}
+
+.icone-produto1 img {
+    margin: 0 auto;
+}
+
+.img-produto1 {
+    flex: 1;
+}
+
+.descricao-produto1 {
+    flex: 1;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+}
+
+.descricao-produto1 p {
+    padding: 30px 40px;
+    flex: 2;
+    font-size: 1em;
+    line-height: 24px;
+}
+
+.descricao-produto1 ul {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.descricao-produto1 ul li {
+    flex: 1 1 229px;
+    padding: 13px 0;
+    background-color: #FEC63E;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+
+.descricao-produto1 ul li:nth-child(even) {
+    margin-left: 2px;
+}
+
+.descricao-produto1 ul li:nth-child(-n+2) {
+    margin-bottom: 2px;
+}
+
+/*Orçamento*/
+.container-orcamento {
+    margin-top: 60px;
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.container-orcamento h2 {
+    text-align: center;
+}
+
+.container-orcamento h3 {
+    color: #FEC63E;
+    margin-bottom: 15px;
+}
+
+.container-orcamento h3::after {
+    margin-left: 0;
+    background-color: #FEC63E;
+}
+
+.container-orcamento .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_orcamento {
+    padding-right: 160px;
+    color: #fff;
+    flex: 1;
+}
+
+.form_orcamento label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.form_orcamento input {
+    width: 100%;
+    height: 36px;
+    border: 4px solid #FEC63E;
+    background-color: #000;
+    height: 36px;
+    margin-bottom: 15px;
+    color: #fff;
+    outline: none;
+}
+
+.form_orcamento textarea {
+    width: 100%;
+    height: 120px;
+    border: 4px solid #FEC63E;
+    background-color: #000;
+    height: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+    outline: none;
+    display: block;
+}
+
+.container-detalhes {
+    flex: 1;
+    flex-flow: column;
+}
+
+.container-fale-conosco {
+    flex: 1;
+}
+
+.container-fale-conosco span {
+    display: block;
+    color: #fff;
+    line-height: 26px;
+    font-family: Georgia, "Time new Romam", serif;
+}
+
+.especificacoes {
+    flex: 1;
+    color: #fff;
+}
+
+.especificacoes ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 24px;
+    width: 200px;
+    font-family: Georgia, "Time new Romam", serif;
+}
+
+.especificacoes li:nth-child(odd) {
+    background-color: #191818;
+}
+
